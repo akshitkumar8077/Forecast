@@ -1,7 +1,7 @@
 function GetInfo() {
   const newName = document.getElementById("cityInput");
   const cityName = document.getElementById("cityName");
-  const API_KEY = "1581fec64745660f734b8de16813ba15";
+  const API_KEY = "Your_API_KEY";
   cityName.innerHTML = "--" + newName.value + "--";
 
   fetch(
